@@ -28,6 +28,7 @@ test "always succeeds" {
 
 test "if statement expression (aka curst shit)" {
     const a = true;
+    // ffdfd
     var x: u16 = 0;
     x += if (a) 1 else 2;
     try expect(x == 1);
